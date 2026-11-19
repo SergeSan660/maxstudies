@@ -26,3 +26,10 @@
 
 ## Security note
 These instructions are project guardrails, **not a security boundary**. Real access control is enforced by GitHub permissions, app installation repository selection, account authentication, branch protection and per-action approvals. A public agent must not be connected to the owner's broad GitHub write credentials.
+
+## Student plugin package
+- Public plugin setup: [PLUGIN_CREATOR_PROMPT.md](PLUGIN_CREATOR_PROMPT.md); reusable tutoring skill: [skills/aishka-tutor/SKILL.md](skills/aishka-tutor/SKILL.md).
+- The plugin is created **inside the student's own ChatGPT account** when eligible; the repo owner cannot install it into that account from here.
+- **Do not connect GitHub or any write-capable app** to the student plugin. Public GitHub is a read-only knowledge source; a plugin may require file uploads if it cannot browse.
+- Do not claim automatic GitHub-to-plugin synchronization, cross-chat memory, school portal access, official Cambridge grading, Oak API access, PostgreSQL storage or Telegram reminders.
+- The [four-week pilot](curriculum/PILOT_4_WEEK_PLAN.md) is original provisional material, not an official Cambridge Scheme of Work.
