@@ -24,6 +24,7 @@
 | [Session log template](assessment/SESSION_LOG.md) | Portable progress summary within a private ChatGPT conversation |
 | [Original diagnostic](content/DIAGNOSTIC_01.md) | Reading, analytical writing and self-reflection pilot |
 | [Original lesson 1](content/LESSON_01.md) | 50–60-minute reading-to-writing pilot |
+| [Four-week study plan](curriculum/PILOT_4_WEEK_PLAN.md) | 20 original, provisional daily session outlines; not a complete official course |
 | [Teaching approach](research/TEACHING_APPROACH.md) | EdTech-derived methods and references |
 | [Source and capability status](knowledge/STATUS.md) | What the tutor may and may not claim |
 | [Agent security rules](AGENTS.md) | Public GitHub scope, privacy and read-only boundaries |
