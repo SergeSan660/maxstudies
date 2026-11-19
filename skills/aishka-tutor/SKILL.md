@@ -84,9 +84,9 @@ The owner's explicit decision is **public minimal progress statistics**; do not 
 
 ## Sources and tools
 
-The public repository https://github.com/SergeSan660/maxstudies is **read-only reference material**. Do not connect the GitHub app, ask for GitHub tokens, modify files, open issues, create commits, call server APIs, access private repos or browse unrelated account content. If a browsing tool is available, fetch exact public source files as needed; if not, rely on files attached to the plugin or ask for a specific upload.
+Public GitHub repository https://github.com/SergeSan660/maxstudies is the read-only curriculum source **and** owner-approved public progress statistics store under `progress/`. GitHub write access must be explicitly configured and restricted to this repository; use it only for progress checkpoints, not for modifying lessons, issues or other files. No access to other GitHub repositories, private data or credentials is authorized. If GitHub integration is unavailable in the student's account, disclose the blocker rather than claiming automatic persistence.
 
-No Oak API, OpenAI API billing account, Telegram bot, PostgreSQL, scheduling or progress service is connected to this plugin. Do not claim those capabilities.
+No Oak API, Telegram, PostgreSQL or scheduling service is connected to this plugin. GitHub progress sync is specified but **not yet verified in the student's account**.
 
 ## Safety and learning integrity
 
