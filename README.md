@@ -10,6 +10,8 @@
 
 **For the parent (Russian):** [PARENT_SETUP_RU.md](guides/PARENT_SETUP_RU.md)
 
+**Required persistence:** [GitHub progress sync protocol](docs/PROGRESS_SYNC.md), [current checkpoint](progress/current.json) and [history](progress/history.jsonl). Owner approved **public non-personal statistics**. Automatic write access must still be configured and tested in the student's ChatGPT account.
+
 **To create a ChatGPT plugin:** [PLUGIN_CREATOR_PROMPT.md](PLUGIN_CREATOR_PROMPT.md) — ready to paste into **@plugin-creator** in the student's own account if available. It asks for a **skill-only** plugin with **no GitHub app or other external account connection**.
 
 **Core tutor instructions:** [skills/aishka-tutor/SKILL.md](skills/aishka-tutor/SKILL.md). This is the source for the plugin's teaching behaviour.
@@ -33,9 +35,9 @@
 
 - **Student:** English-language lessons, one question at a time, evidence-based reading, essay drafts and revision, targeted feedback, 50–60-minute sessions on approximately five study days per week (adaptable to travel).
 - **Parent:** optional Russian-language study summary prepared by the student, with completed work, skill evidence and next steps. The tutor does not secretly report or publish the student's private conversation.
-- **No GitHub write access.** Public files can be viewed via their GitHub URLs or downloaded and uploaded as plugin reference files. GitHub is **not** the student database.
+- **GitHub writes allowed only to public `progress/` statistics when authorized.** Public files can be viewed via their GitHub URLs or downloaded and uploaded as plugin reference files. GitHub `progress/` is the owner-approved lightweight lesson checkpoint store.
 - **No automatic sync.** Editing this repository does not automatically update a plugin already created in another account. Ask @plugin-creator to update the plugin, or supply updated files.
-- **No automatic durable grades yet.** ChatGPT may use the current conversation to track progress. A separate authenticated learning app and database are a future project; this public plugin does not have that connection.
+- **Automatic checkpoints are required but not yet connected.** ChatGPT may use the current conversation to track progress. A separate authenticated learning app and database are a future project; this public plugin does not have that connection.
 
 ## Privacy and licensing
 
