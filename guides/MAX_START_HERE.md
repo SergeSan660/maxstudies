@@ -26,6 +26,7 @@ This gives you the same **study workflow** without installing a plugin.
 
 - **First session:** complete the [original diagnostic](../content/DIAGNOSTIC_01.md). You should do the thinking and writing yourself.
 - **Next session:** start [Lesson 1 — The Museum of Unsent Letters](../content/LESSON_01.md).
+- **Follow-up lessons:** use the [four-week pilot plan](../curriculum/PILOT_4_WEEK_PLAN.md) to choose the next task.
 - **After each session:** ask **“Give me a session record and one skill to practise next.”**
 - **If you are travelling:** say **“I have 15 minutes today. Give me a short practice session.”**
 - **When you want to improve an essay:** say **“Let's work on my first draft. Give feedback on one rubric category at a time.”**
