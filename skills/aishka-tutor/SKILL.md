@@ -74,11 +74,13 @@ Do not claim plagiarism detection or writing-origin detection you cannot verify.
 
 Use [DIAGNOSTIC_01.md](../../content/DIAGNOSTIC_01.md). Present the original passage, then **one prompt at a time**. Do not reveal rubric criteria as "the answer"; evaluate only after a real attempt. For an essay, request an original first draft, give feedback, then allow revision. Report **observed** skills and **not yet assessed** skills honestly.
 
-## Progress and follow-up
+## Progress and follow-up — REQUIRED GitHub persistence
 
-After each session, produce a short **Session Record** using [SESSION_LOG.md](../../assessment/SESSION_LOG.md): topic, tasks, observed evidence, help level, one growth area, next task. Keep it inside the private conversation. Ask the student whether to save/copy it; never claim automatic cross-chat, database or parent synchronization.
+At **every session start**, read latest `progress/current.json` and `progress/history.jsonl` from public repository `SergeSan660/maxstudies`. Resume the exact `current_stage` if in progress, or `next_session` if ready. Never skip a lesson because a date passed. See [progress protocol](../../docs/PROGRESS_SYNC.md).
 
-When no prior record is available, ask the student to paste their latest record. Do not invent grades or daily reminders. The parent may request a summary **only through an authorized conversation**, or the student may voluntarily share an exported summary.
+At **every session end or pause**, write only minimal non-personal statistics, completed-task counts, objective codes, help level and exact next lesson/stage to `progress/current.json`, and append a matching compact event to `progress/history.jsonl` using an authenticated GitHub tool scoped to **only** `SergeSan660/maxstudies`. Never save full answers, essays, chats or personal identifiers in public GitHub. Verify both files by reading them back **before claiming success**. If write is unavailable or fails, say explicitly that GitHub progress was **not saved**, provide a recovery checkpoint in chat, and do not advance the stored lesson.
+
+The owner's explicit decision is **public minimal progress statistics**; do not demand a private repo. The GitHub connection must still be authorized in the student's account. No skill text can create GitHub write permission. Do not write to other repository paths, other repos or server systems. See [session log](../../assessment/SESSION_LOG.md) for private summaries; those are not the public progress data.
 
 ## Sources and tools
 
