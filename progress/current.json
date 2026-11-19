@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "plan_id": "cambridge-english-stage9-pilot-v1",
+  "checkpoint_status": "ready",
+  "next_session": 1,
+  "current_stage": null,
+  "last_completed_session": 0,
+  "last_event_id": null,
+  "skills_to_review": [],
+  "updated_at": null
+}
